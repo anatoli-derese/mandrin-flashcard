@@ -1,0 +1,22 @@
+export const initialDeck = [
+  { id: 1, hanzi: '你', pinyin: 'ni3', english: 'you', hsk: 'HSK1' },
+  { id: 2, hanzi: '好', pinyin: 'hao3', english: 'good', hsk: 'HSK1' },
+  { id: 3, hanzi: '不', pinyin: 'bu4', english: 'not', hsk: 'HSK1' },
+  { id: 4, hanzi: '一', pinyin: 'yi1', english: 'one', hsk: 'HSK1' },
+  { id: 5, hanzi: '中国', pinyin: 'zhong1 guo2', english: 'China', hsk: 'HSK1' },
+  { id: 6, hanzi: '学习', pinyin: 'xue2 xi2', english: 'study', hsk: 'HSK1' },
+  { id: 7, hanzi: '你好', pinyin: 'ni3 hao3', english: 'hello', hsk: 'HSK1' },
+  { id: 8, hanzi: '谢谢', pinyin: 'xie4 xie5', english: 'thanks', hsk: 'HSK1' },
+  { id: 9, hanzi: '对', pinyin: 'dui4', english: 'correct', hsk: 'HSK1' },
+  { id: 10, hanzi: '不对', pinyin: 'bu4 dui4', english: 'incorrect', hsk: 'HSK1' },
+  { id: 11, hanzi: '一样', pinyin: 'yi2 yang4', english: 'same', hsk: 'HSK2' },
+  { id: 12, hanzi: '一般', pinyin: 'yi4 ban1', english: 'ordinary', hsk: 'HSK2' },
+  { id: 13, hanzi: '老师', pinyin: 'lao3 shi1', english: 'teacher', hsk: 'HSK1' },
+  { id: 14, hanzi: '学生', pinyin: 'xue2 sheng1', english: 'student', hsk: 'HSK1' },
+  { id: 15, hanzi: '中国人', pinyin: 'zhong1 guo2 ren2', english: 'Chinese person', hsk: 'HSK1' },
+  { id: 16, hanzi: '汉字', pinyin: 'han4 zi4', english: 'Chinese character', hsk: 'HSK2' },
+  { id: 17, hanzi: '北京', pinyin: 'bei3 jing1', english: 'Beijing', hsk: 'HSK1' },
+  { id: 18, hanzi: '上海', pinyin: 'shang4 hai3', english: 'Shanghai', hsk: 'HSK1' },
+  { id: 19, hanzi: '很好', pinyin: 'hen3 hao3', english: 'very good', hsk: 'HSK1' },
+  { id: 20, hanzi: '没有', pinyin: 'mei2 you3', english: 'not have', hsk: 'HSK1' }
+];
