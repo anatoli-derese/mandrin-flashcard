@@ -15,9 +15,13 @@ Helpful scripts:
 - `npm run preview` – serve the production build locally
 - `npm run lint` – eslint across the project
 
-### Tests?
+### Tests
 
-There is a placeholder suite at `src/util/test/pinyin.test.js`, but no test runner is wired up in `package.json`, so `npm test` (or similar) will fail. To use those specs, add a runner such as Vitest or Jest and point it at the file.
+Vitest is configured for the pinyin utility specs. Run them with:
+
+```bash
+npm test
+```
 
 ## Architecture (brief)
 
@@ -32,4 +36,4 @@ Persistence lives entirely in `flashcardapp.jsx`: on load it hydrates from `loca
 
 ## Time Spent
 
-Roughly 1.5 hours across feature work (tone fixes, persistence reset), verification, and documentation.
+Roughly 2 hours across feature work (tone fixes, persistence reset), verification, and documentation.

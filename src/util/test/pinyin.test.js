@@ -1,4 +1,5 @@
-import { comparePinyin, normalizePinyin, numberToDiacritic } from '../pinyin';
+import { expect, test } from 'vitest';
+import { comparePinyin, normalizePinyin } from '../pinyin';
 
 test('normalizePinyin removes tones', () => {
   expect(normalizePinyin('nǐ hǎo')).toBe('ni hao');
